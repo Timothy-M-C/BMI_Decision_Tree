@@ -1,3 +1,10 @@
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+from sklearn.model_selection import train_test_split #create training and test data sets
+from sklearn.tree import DecisionTreeClassifier #create a decision tree 
+from sklearn import tree #for visualization of the decision tree
+from matplotlib import pyplot as plt #vis tool
+
 #create dataframe
 df = pd.read_csv('/kaggle/input/bmidataset/bmi.csv')
 
